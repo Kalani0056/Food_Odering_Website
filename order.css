@@ -1,0 +1,184 @@
+                /*---order---*/
+.book .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1rem;
+}
+ 
+.book .row .image{
+    flex:1 1 40rem;
+}
+
+.book .row .image img{
+    width: 100%;
+}
+
+.book .row form{
+    flex:1 1 45rem;
+    background: rgb(64, 143, 161);
+    border:var(--border);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.book .row form h3{
+    color:var(--black);
+    padding-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.book .row form .box{
+    width: 100%;
+    margin:.7rem 0;
+    border-radius: .5rem;
+    border:var(--border);
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+    padding: 1rem;
+}
+.dely
+{
+    font-size: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: right;
+}
+
+
+.book .row form .btn{
+    padding:1rem 4rem;
+}
+
+                        /*---review---*/
+
+
+.review .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap:2rem;
+    
+}
+
+.review .box-container .box{
+    border:var(--border);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    padding:2.5rem;
+    background: rgb(207, 209, 203);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.review .box-container .box img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border:.5rem solid rgb(186, 64, 64);
+}
+
+.review .box-container .box h3{
+    color:rgb(238, 61, 13);
+    font-size: 25px;
+    padding:.5rem 0;
+}
+
+.review .box-container .box .stars i{
+    color:rgb(105, 32, 32);
+    font-size: 1.5rem;
+}
+
+.review .box-container .box .text{
+    color:var(--light-color);
+    line-height: 1.8;
+    font-size: 1.6rem;
+    padding-top: 4rem;
+}
+
+.review .box-container .box::before{
+    content: '';
+    position: absolute;
+    top:-4rem; left: 50%;
+    transform:translateX(-50%);
+    background:var(--green);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    height: 25rem;
+    width: 120%;
+    z-index: -1;
+}
+
+
+
+                    /*---our_group---*/
+
+
+.chef .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:2rem;
+}
+
+.chef .box-container .box{
+    text-align: center;
+    background:rgb(245, 204, 204);
+    border-radius: .5rem;
+    border:var(--border);
+    box-shadow: var(--box-shadow);
+    padding:2rem;
+}
+
+.chef .box-container .box img{
+    height: 10rem;
+    border:var(--border);
+    border-radius: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.chef .box-container .box h3{
+    color:var(--black);
+    font-size: 2.5rem;
+}
+
+.chef .box-container .box span{
+    color:var(--green);
+    font-size: 1.5rem;
+}
+
+.chef .box-container .box .share{
+    padding-top: 2rem;
+}
+
+.chef .box-container .box .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 4.5rem;
+    font-size: 2rem;
+    color:var(--green);
+    border-radius: .5rem;
+    border:var(--border);
+    margin:.3rem;
+}
+
+.chef .box-container .box .share a:hover{
+    background:var(--green);
+    color:#fff;
+    box-shadow: var(--box-shadow);
+}
+.chef .heading
+{
+    font-size: 40px;
+    
+}
+
+ 
+
+
+
+

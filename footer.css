@@ -1,0 +1,31 @@
+.footer
+{
+	
+	height:300px;
+	width:100%;
+	background-color:black;
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+	
+}
+.footerb
+{
+	height: 280px;
+	width: 300px;
+	float:left;
+	color: white;
+	text-align:center
+}
+.re-foo li
+{
+	list-style: none;
+}
+
+.re-foo li a{
+color: aliceblue;
+text-decoration: none;
+
+
+}
+

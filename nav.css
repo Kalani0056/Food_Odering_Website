@@ -1,0 +1,152 @@
+/*---nav---*/
+*
+{
+	margin:0;
+	padding:0;
+	
+}
+body{
+	font-family: sans-serif;
+}
+.menu-bar{
+	background-color:hsl(326, 11%, 50%);
+	height: 110px;
+	width: 100%;
+	display:flex;
+	align-items: center;
+	padding: 0 5%;
+	justify-content:space-around;
+}
+.logo img
+{	
+	position: absolute;
+	top:-10%;
+	left:-4%;
+	line-height:40px;	
+	
+}
+.menu-bar ul{
+	list-style: none;
+	display: flex;
+	left: 510px;
+}
+.menu-bar ul li{
+	padding: 10px 20px;
+	position: relative;
+	opacity: .8;
+}
+
+.menu-bar ul li a{
+	color:rgb(9, 9, 9);
+	text-decoration: none;
+	font-size: 24px;
+
+	transition: all 0.3s;
+
+}
+.menu-bar ul li a:hover{
+	color: rgb(241, 225, 237);
+	font-size: 25px;
+}
+
+/*---dropdown menu---*/
+
+.dropdown-menu{
+	display: none;
+}
+
+.menu-bar ul li:hover .dropdown-menu{
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	background-color:hsl(80, 3%, 37%);
+	
+}
+.menu-bar ul li:hover .dropdown-menu ul{
+	display: block;
+	margin: 10px;
+	
+
+}
+.menu-bar ul li:hover .dropdown-menu ul li{
+	width: 150px;
+	padding: 10px;
+	
+}
+.fas{
+	float: right;
+	margin-top: 10px;
+	padding-top: 3px;
+}
+
+	/*---home image---*/
+
+	.text-box{
+		width:90%;
+		position:absolute;
+		top:40%;
+		left:5%;
+		transition:translate(-50%,-50%);
+		text-align:center;
+	}
+	.text-box h1{
+		font-size:70px;
+		color:rgb(238, 18, 18);
+		
+	}
+	.lead{
+		font-size:40px;
+		text-transform:capitalize;
+		color:rgb(237, 231, 237);
+	}
+	.text-md{
+		margin:10px 0 40px;
+		font-size:30px;
+		color:rgb(228, 193, 193);
+	}
+	
+	.btn,button{
+		border:none;
+		cursor:pointer;
+	}
+	.btn
+	{
+		padding:10px 30px;
+		position:center;
+		border-radius:3rem;
+		display:inline-black;
+		background-color:light-color;
+		font-weight:500;
+		box-shadow:0 0 5px 3px;
+		transition:transition;
+		
+	}
+	.btn-white{
+		color:rgb(242, 115, 18);
+	}
+	.btn-light-blue{
+	
+		color:light-color;
+		margin-left:50px;
+	}
+	.btn-blue{
+		background-color:#f56d06;
+		color:light-color;
+	}
+	.btn-group{
+	
+		line-height:40px;
+		
+	}
+	.btn-group.btn:first-child{
+		margin:5px;
+	}
+	
+	.btn:hover{
+		box-shadow:box-shadow;
+		border-radius:3rem rgb(127, 138, 142);
+		background:rgb(177, 183, 185);
+		transition:1s;
+	}
+	
